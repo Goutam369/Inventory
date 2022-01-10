@@ -1,0 +1,15 @@
+create table item(
+    id int auto_increment primary key,
+    product_weight int,
+    item_type_id int,
+    manufacturing_location varchar(100),
+    product_name varchar(100),
+    order_id int,
+    quantity int,
+    price int,
+    manufacturer_id int,
+    item_purchase_location varchar(100),
+    product_expiry_date date,
+    warrenty int,
+    item_image_url varchar(100)
+    );

@@ -1,0 +1,2 @@
+insert into product_order(amount,product_weight,purchase_date,purchase_location,customer_id,product_id) 
+values(71,25,'2022-03-08','KULU',1,1);

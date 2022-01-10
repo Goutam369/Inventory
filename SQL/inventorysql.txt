@@ -1,0 +1,16 @@
+-- alter table customer add mobile int unique key;
+-- alter table customer modify column mobile varchar(100) unique key;
+-- update customer set mobile=9061510501 where id=9;
+-- select * from product_order;
+-- select * from manufacturer;
+-- select * from customer;
+
+
+-- select c.mobile FROM customer c LEFT JOIN product_order o ON c.id = o.customer_id WHERE o.customer_id is NULL;
+-- select name from customer,product_order where customer.id=product_order.customer_id order by amount limit 5;
+-- select * from product_order order by amount desc limit 5;
+-- select * from product_order order by quantity desc limit 5;
+-- select address,count(*) as count_customer from customer group by address;
+-- select sum(amount) from product_order where purchase_date < '2022-03-02';
+-- select * from product_order where amount > (select avg(amount) from product_order);
+-- update item,item_type set price=price-2000 where type='cart';
