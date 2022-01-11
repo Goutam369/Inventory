@@ -1,0 +1,56 @@
+customers
+{
+    "_id": {
+        "$oid": "61dd1b71aa2dbe0c269ba5ae"
+    },
+    "name":"Goutam Halder",
+    "email":"haldergoutam363@gmail.com",
+    "orders":[
+        {
+            "quantity":"3",
+            "amount":"7",
+            "total_amount":"21",
+            "weight":"31",
+            "purchase_date":"06/01/2022",
+            "purchase_location":"Pune",
+            "item_id":"61dd213aaa2dbe0c269ba5b1"
+        },
+        {
+            "quantity":"2",
+            "amount":"9",
+            "total_amount":"18",
+            "weight":"22",
+            "purchase_date":"02/01/2022",
+            "purchase_location":"Pune",
+            "item_id":"61dd218daa2dbe0c269ba5b2"
+        }
+        ],
+    "address":"Kolkata",
+    "mobile":"9061510907"
+}
+
+
+items
+{
+    "_id": {
+        "$oid": "61dd218daa2dbe0c269ba5b2"
+    },
+    "name":"ambuja cement",
+    "weight":"31",
+    "item_type":"construction",
+    "manufacturer":
+    {
+        "name":"ambuja",
+        "description":"we only make good products",
+        "location":"mumbai",
+        "logo_url":"xyz.com",
+        "type":"medium_size",
+        "website_url":"ambuja.com",
+        "email":"ambuja@gmail.com"
+    },
+    "quantity":"32",
+    "price":"7",
+    "expiry_date":"06/02/2022",
+    "warrenty":"6",
+    "item_image_url":"abc.com"
+}
